@@ -73,6 +73,7 @@ open class LabelSegment: BetterSegmentedControlSegment {
         label.textColor = textColor
         label.lineBreakMode = .byTruncatingTail
         label.textAlignment = .center
+        label.numberOfLines = 0
         if let identifier = accessibilityIdentifier {
             label.accessibilityIdentifier = identifier
         }
